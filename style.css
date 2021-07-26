@@ -11,3 +11,11 @@ h1 {
 div#img {
   margin-top: 30px;
 }
+p#footer {
+  padding:15px;
+  margin-bottom: 0px;
+}
+
+p#footer a{
+  color: royalblue;
+}
