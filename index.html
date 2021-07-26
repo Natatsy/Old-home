@@ -12,29 +12,22 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>MyBio</title>
   </head>
   <body>
-    <h3 class="text-center">Welcome To My Bio <small class="text-muted">Nataliya Tsytovych</small></h3>
-    <ul class="nav nav-pills nav-fill">
-      <li class="nav-item">
-        <a class="nav-lin" href="index.html">MyBio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Much longer nav link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Disabled</a>
-      </li>
-    </ul>
-    <div class="container overflow-hidden">
+    <nav id="main" class="nav nav-pills flex-column flex-sm-row p-3 mb-2 bg-secondary text-white ">
+      <a class="flex-sm-fill text-sm-center nav-link text-white" href="index.html">My Bio</a>
+      <a class="flex-sm-fill text-sm-center nav-link text-white" href="hotel/index.html">Bootstrap</a>
+      <a class="flex-sm-fill text-sm-center nav-link text-white" href="fishingStore/index.html">Grids</a>
+      <a class="flex-sm-fill text-sm-center nav-link text-white" href="pizza/index.html">Flex Boxes</a>
+    </nav>
+    <h1 class="text-center bg-dark text-light">Welcome To My Bio <small class="text-muted">Nataliya Tsytovych</small></h1>
+
+    <div class="container shadow-lg p-3 mb-5 bg-body rounded " >
       <div class="row gx-5">
         <div class="col">
-          <div class="p-3 border bg-light">
+          <div class="p-3 border bg-dark text-light ">
             <h6>About Me</h6>
             <ul class="list-unstyled">
               <li>My name is Nataliya Tsytovych I am 22 years old.
@@ -62,10 +55,10 @@
           </div>
         </div>
         <div class="col">
-          <div class="p-3 border bg-light"><img  class="img-fluid img-thumbnail" src="images/20210227_102019.jpg" alt="Nataliya"></div>
+          <div id="img" class="p-3 border bg-dark text-light"><img  class="img-fluid img-thumbnail" src="images/20210227_102019.jpg" alt="Nataliya"></div>
         </div>
         <div class="col">
-          <div class="p-3 border bg-light">
+          <div class="p-3 border bg-dark text-light">
             <article>
               <h6>My Hobbies</h6>
               <p>One of my favorite things to do is go on hikes and camping trips with my family.</p>
@@ -73,6 +66,7 @@
               My last and longest trip that I took my toddler on was to Belarus it was over 24 hour flight.</p>
               <h6>My Goals</h6>
               <p>Is to work for Google or Apple company. Once I will make it, I will work even harder to be the best!</p>
+              <a href="hobbies.html"><img src="images/20210225_155207.jpg" alt="Angel" style="width:100px;height:100px;"/></a>
             </article>
           </div>
         </div>

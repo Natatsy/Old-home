@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* Author: Nataliya Tsytovych
+     Date:   07/16/2021
+     Assignment: Fish Bait Store
+     File: style.css
+*/
+/* navigation style */
+header {
+  background-image: url(image/logo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 380px;
+  position: relative;
+}
+div.container1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+div.main-nav {
+  overflow: hidden;
+  background-color: #333;
+}
+div.main-nav a {
+  min-width: 200px;
+  float:left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+div.main-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* body style */
+video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+article.page {
+  position: relative;
+  color: #f2f2f2;
+
+}
+h1 {
+  text-align: center;
+}
+article.page > img {
+  padding-left: 300px;
+}
+div.home {
+  text-align: center;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 1.5em;
+}
+div.container {
+  font-size: 1em;
+  color: #f2f2f2;
+  position: relative;
+  background-image: url(image/rod2.jpg);
+  opacity: .8;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+section.order {
+  position: relative;
+}
+div.colm1 {
+  font-size: 1.5em;
+  background-image: url(image/bait2.jpg);
+  background-position: center;
+  opacity: .8;
+  background-size: cover;
+}
+input.submit {
+  width: 200px;
+  height: 30px;
+  font-size: 1em;
+}
+input.submit:hover {
+  color: orange;
+}
+div.contacts {
+  position: relative;
+  text-align: center;
+  color: #f2f2f2;
+  background-color: gray;
+  background-size: cover;
+}
+div.container3 {
+  position: relative;
+  color: #f2f2f2;
+}
+@media screen and (max-width:800px) {
+  article.page > img {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width:600px) {
+  div.main-nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  div.container1{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  article.page > img {
+    width: 450px;
+  }
+  div.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1.2em;
+  }
+  iframe {
+    width: 350px;
+  }
+}
